@@ -43,7 +43,6 @@ const SliderTemplates = (props) => {
         default:
             template = null;
     }
-    console.log(props.data);
     return (
         <Slick {...settings}>
             {template}
